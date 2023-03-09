@@ -22,9 +22,15 @@ namespace TasksCsharp.CSharp.pro
 
             ////S1.3. Составить программу вывода на экран числа, вводимого с клавиатуры.Выводимому числу должно предшествовать сообщение «Вы ввели число».
 
-                
+                //Console.WriteLine("Please, enter any number");
+                //double input = double.Parse(Console.ReadLine());
+                //Console.WriteLine($"You entered the number: {input}");
 
             ////S1.4. Составить программу вывода на экран числа, вводимого с клавиатуры.После выводимого числа должно следовать сообщение » — вот какое число Вы  ввели».
+
+                //Console.WriteLine("Please, enter any number");
+                //double input = double.Parse(Console.ReadLine());
+                //Console.WriteLine($"{input} - the number you have entered ");
 
             ////S1.5. Вывести на одной строке числа 1, 13 и 49 с одним пробелом между ними.
 
