@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSharp.pro\_A.cs" />
+    <Compile Include="CSharp.pro\_L.cs" />
     <Compile Include="CSharp.pro\_S.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
