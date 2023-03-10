@@ -10,11 +10,41 @@ namespace TasksCsharp.CSharp.pro
     {
         public static void L1()
         {
-            ////L1.1.Вычислить значение логического выражения при следующих значениях логических величин А, В и С: А = Истина, В = Ложь, С = Ложь:
+            ////L1.1.Вычислить значение логического выражения при следующих значениях логических величин А, В и С: 
+            ///А = Истина, В = Ложь, С = Ложь:
             ////а) А или В; б) А и В; в) В или С.
+
+                //bool A = true, B = false, C = false;
+                //bool resultA1 = A | B;
+                //bool resultA2 = A || B;
+                //Console.WriteLine($"The result is {resultA1} and {resultA2}");
+
+                //bool resultB1 = A & B;
+                //bool resultB2 = A && B;
+                //Console.WriteLine($"The result is {resultB1} and {resultB2}");
+
+                //bool resultC1 = B | C;
+                //bool resultC2 = B || C;
+                //Console.WriteLine($"The result is {resultC1} and {resultC2}");
+
 
             ////L1.2.Вычислить значение логического выражения при следующих значениях логических величин X, Y и Z: X = Ложь, Y = Истина, Z = Ложь:
             ////а) X или Z; б) X и Y; в) X и Z.
+            
+                //bool X = false, Y=true, Z = false;
+
+                //bool resultA1 = X | Z;
+                //bool resultA2 = X || Z;
+                //Console.WriteLine($"The result is {resultA1} and {resultA2}");
+
+                //bool resultB1 = X & Y;
+                //bool resultB2 = X && Y;
+                //Console.WriteLine($"The result is {resultB1} and {resultB2}");
+
+                //bool resultC1 = X & Z;
+                //bool resultC2 = X && Z;
+                //Console.WriteLine($"The result is {resultC1} and {resultC2}");
+
 
             ////L1.3.Вычислить значение логического выражения при следующих значениях логических величин А, В и С: А = Истина, В = Ложь, С = Ложь:
             ////а) не А и В; б) А или не В; в) А и В или С.
