@@ -14,48 +14,80 @@ namespace TasksCsharp.CSharp.pro
             ///А = Истина, В = Ложь, С = Ложь:
             ////а) А или В; б) А и В; в) В или С.
 
-                //bool A = true, B = false, C = false;
-                //bool resultA1 = A | B;
-                //bool resultA2 = A || B;
-                //Console.WriteLine($"The result is {resultA1} and {resultA2}");
+            //bool A = true, B = false, C = false;
+            //bool resultA1 = A | B;
+            //bool resultA2 = A || B;
+            //Console.WriteLine($"The result is {resultA1} and {resultA2}");
 
-                //bool resultB1 = A & B;
-                //bool resultB2 = A && B;
-                //Console.WriteLine($"The result is {resultB1} and {resultB2}");
+            //bool resultB1 = A & B;
+            //bool resultB2 = A && B;
+            //Console.WriteLine($"The result is {resultB1} and {resultB2}");
 
-                //bool resultC1 = B | C;
-                //bool resultC2 = B || C;
-                //Console.WriteLine($"The result is {resultC1} and {resultC2}");
+            //bool resultC1 = B | C;
+            //bool resultC2 = B || C;
+            //Console.WriteLine($"The result is {resultC1} and {resultC2}");
 
 
             ////L1.2.Вычислить значение логического выражения при следующих значениях логических величин X, Y и Z: X = Ложь, Y = Истина, Z = Ложь:
             ////а) X или Z; б) X и Y; в) X и Z.
-            
-                //bool X = false, Y=true, Z = false;
 
-                //bool resultA1 = X | Z;
-                //bool resultA2 = X || Z;
-                //Console.WriteLine($"The result is {resultA1} and {resultA2}");
+            //bool X = false, Y=true, Z = false;
 
-                //bool resultB1 = X & Y;
-                //bool resultB2 = X && Y;
-                //Console.WriteLine($"The result is {resultB1} and {resultB2}");
+            //bool resultA1 = X | Z;
+            //bool resultA2 = X || Z;
+            //Console.WriteLine($"The result is {resultA1} and {resultA2}");
 
-                //bool resultC1 = X & Z;
-                //bool resultC2 = X && Z;
-                //Console.WriteLine($"The result is {resultC1} and {resultC2}");
+            //bool resultB1 = X & Y;
+            //bool resultB2 = X && Y;
+            //Console.WriteLine($"The result is {resultB1} and {resultB2}");
+
+            //bool resultC1 = X & Z;
+            //bool resultC2 = X && Z;
+            //Console.WriteLine($"The result is {resultC1} and {resultC2}");
 
 
             ////L1.3.Вычислить значение логического выражения при следующих значениях логических величин А, В и С: А = Истина, В = Ложь, С = Ложь:
             ////а) не А и В; б) А или не В; в) А и В или С.
 
+            //bool A = true, B = false, C = false;
+
+            //bool result1 = !A && B;
+            //bool result2 = A || !B;
+            //bool result3 = A & B || C;
+
+            //Console.WriteLine($"The result is:\n1) {result1}\n2) {result2}\n1) {result3}");
+
+
             ////L1.4.Вычислить значение логического выражения при следующих значениях логических величин X, Y и Z: X = Истина, Y = Истина, Z = Ложь:
             ////а) не X и Y; б) X или не Y; в) X или Y и Z.
 
+            //bool X = true, Y = true, Z = false;
+
+            //bool result1 = !X && Y;
+            //bool result2 = X || !Y;
+            //bool result3 = X || Y & Z;
+
+            //Console.WriteLine($"The result is:\n1) {result1}\n2) {result2}\n1) {result3}");
+
+
             ////L1.5.Вычислить значение логического выражения при следующих значениях логических величин А, В и С: А = Истина, В = Ложь, С = Ложь:
-            ////а) А или В и не С; г) А и не В или С;
-            ////б) не А и не В; д) А и(не В или С);
-            ////в) не(А и С) или В; е) А или(не (В и С)).
+            ////а) А или В и не С;
+            ////б) не А и не В; 
+            ////в) не(А и С) или В; 
+            /// г) А и не В или С;
+            /// д) А и(не В или С);
+            /// е) А или(не (В и С)).
+
+            //bool A = true, B = false, C = false;
+
+            //bool result1 = A || B && !C;
+            //bool result2 = !A & !B;
+            //bool result3 = !(A & C) || B;
+            //bool result4 = A && !B || C;
+            //bool result5 = A &&(!B || C);
+            //bool result6 = A || (!(B && C));
+
+            //Console.WriteLine($"The result is:\n1) {result1}\n2) {result2}\n3) {result3}\n4) {result4}\n5) {result5}\n6) {result6}");
 
             ////L1.6.Вычислить значение логического выражения при следующих значениях логических величин X, Y и Z: X = Ложь, Y = Ложь, Z = Истина:
             ////а) X или Y и не Z; г) X и не Y или Z;
