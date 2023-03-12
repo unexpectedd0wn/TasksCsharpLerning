@@ -150,6 +150,15 @@ namespace TasksCsharp.CSharp.pro
             //Console.WriteLine($"The result is: L = {l} and S = {s}");
 
             // S2.7.Даны два целых числа.Найти: а) их среднее арифметическое; б) их среднее геометрическое.
+            Console.WriteLine("Please, enter 1st namer: ");
+            double number1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Please, enter 2nd number");
+            double number2 = double.Parse(Console.ReadLine());
+
+            double avg = (number1 + number2) / 2;
+            double gavg = Math.Sqrt(number1 * number2);
+
+            Console.WriteLine($"The result is: Math avg = {avg} and Gavg = {gavg}");
 
             //S2.8.Известны объем и масса тела. Определить плотность материала этого тела.
 
