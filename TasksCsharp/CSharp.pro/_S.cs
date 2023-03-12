@@ -141,7 +141,13 @@ namespace TasksCsharp.CSharp.pro
             //double s = Math.Round(Math.Pow(l, 2));
             //Console.WriteLine($"The result is:\nV = {v} and S = {s}");
 
-            //S2.6.Дан радиус окружности. Найти длину окружности и площадь круга.
+            ////S2.6.Дан радиус окружности. Найти длину окружности и площадь круга.
+            //double pi = 3.14;
+            //Console.WriteLine("Please, enter R");
+            //double r = double.Parse(Console.ReadLine());
+            //double l = Math.Round(2 * (pi * r));
+            //double s = Math.Round(Math.Pow((pi * r),2));
+            //Console.WriteLine($"The result is: L = {l} and S = {s}");
 
             // S2.7.Даны два целых числа.Найти: а) их среднее арифметическое; б) их среднее геометрическое.
 
