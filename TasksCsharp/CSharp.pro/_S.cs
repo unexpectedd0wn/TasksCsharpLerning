@@ -99,7 +99,14 @@ namespace TasksCsharp.CSharp.pro
             //а) вычисления значения функции y = 7x2 + 3x + 6 при любом значении x;
             //б) вычисления значения функции x = 12a2 + 7a + 12 при любом значении а.
 
+            //Random random = new Random();
+            //double x = random.NextDouble();
+            //double a = random.NextDouble();
 
+            //double resulty = Math.Round((7 * x * 2 + 3 * x + 6),2);
+            //double resultx = Math.Round((12 * a * 2 + 7 * a + 12),2);
+
+            //Console.WriteLine($"The result is:\n1){resulty}\n2){resultx}");
 
             //S2.2.Дана сторона квадрата. Найти его периметр. — решение.
 
@@ -117,7 +124,7 @@ namespace TasksCsharp.CSharp.pro
             //S2.4.Считая, что Земля — идеальная сфера с радиусом R = 6350 км,
             //определить расстояние до линии горизонта от точки В с заданной высотой h = AB над Землей.
 
-            double R = 6350;
+            //double R = 6350;
 
 
             //S2.5.Дана длина ребра куба.Найти объем куба и площадь его боковой поверхности. — решение

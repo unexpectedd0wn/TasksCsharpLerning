@@ -11,8 +11,9 @@ namespace TasksCsharp
     {
         static void Main(string[] args)
         {
-            //_S.S2();
-            _L.L1();
+            _S.S2();
+            //_L.L1();
+            //_L.L2();
         }
     }
 }

@@ -90,29 +90,79 @@ namespace TasksCsharp.CSharp.pro
             //Console.WriteLine($"The result is:\n1) {result1}\n2) {result2}\n3) {result3}\n4) {result4}\n5) {result5}\n6) {result6}");
 
             ////L1.6.Вычислить значение логического выражения при следующих значениях логических величин X, Y и Z: X = Ложь, Y = Ложь, Z = Истина:
-            ////а) X или Y и не Z; г) X и не Y или Z;
-            ////б) не X и не Y; д) X и(не Y или Z);
-            ////в) не(X и Z) или Y; е) X или(не (Y или Z)).
+            ////а) X или Y и не Z; 
+            ////б) не X и не Y; 
+            ////в) не(X и Z) или Y;
+            ////г) X и не Y или Z; 
+            ////д) X и(не Y или Z);
+            ////е) X или(не (Y или Z)).
+
+            //bool X = false, Y = false, Z = true;
+
+            //bool result1 = X || Y && !Z;
+            //bool result2 = !X && !Y;
+            //bool result3 = !(X && Z) || Y;
+            //bool result4 = X && !Y || Z;
+            //bool result5 = X &&(!Y || Z);
+            //bool result6 = X || (!(Y || Z));
+
+            //Console.WriteLine($"The result is:\n1) {result1}\n2) {result2}\n3) {result3}\n4) {result4}\n5) {result5}\n6) {result6}");
 
             ////L1.7.Вычислить значение логического выражения при следующих значениях логических величин А, В и С: А = Истина, В = Ложь, С = Ложь:
             ////а) А или не(А и В) или С;
             ////б) не А или А и(В или С);
             ////в) (А или В и не С) и С.
 
+            //bool A = true, B = false, C = false;
+
+            //bool result1 = A || !(A && B) || C;
+            //bool result2 = !A || A &&(B || C);
+            //bool result3 = (A || B && !C) && C;
+
+
+            //Console.WriteLine($"The result is:\n1) {result1}\n2) {result2}\n3) {result3}");
+
             ////L1.8.Вычислить значение логического выражения при следующих значениях логических величин X, Y и Z: X = Ложь, Y = Истина, Z = Ложь:
             ////а) X и не(Z или Y) или не Z;
             ////б) не X или X и(Y или Z);
             ////в) (X или Y и не Z) и Z.
+
+            //bool X = false, Y = true, Z = false;
+
+            //bool result1 = X && !(Z || Y) || !Z;
+            //bool result2 = !X || X &&(Y || Z);
+            //bool result3 = (X || Y && !Z) && Z;
+
+
+            //Console.WriteLine($"The result is:\n1) {result1}\n2) {result2}\n3) {result3}");
 
             ////L1.9.Вычислить значение логического выражения при следующих значениях логических величин X, Y и Z: X = Истина, Y = Ложь, Z = Ложь:
             ////а) не X или не Y или не Z;
             ////б) (не X или не Y) и(X или Y);
             ////в) X и Y или X и Z или не Z.
 
+            //bool X = true, Y = false, Z = false;
+
+            //bool result1 = !X || !Y || !Z;
+            //bool result2 = (!X || !Y) && (X || Y);
+            //bool result3 = X && Y || X && Z && !Z;
+
+            //Console.WriteLine($"The result is:\n1){result1}\n2){result2}\n3){result3}");
+
+
             ////L1.10.Вычислить значение логического выражения при следующих значениях логических величин А, В и С: А = Ложь, В = Ложь, С = Истина:
             ////а) (не А или не В) и не С;
             ////б) (не А или не В) и(А или В);
             ////в) А и В или А и С или не С.
+            ///
+
+            //bool A = false, B = false, C = true;
+
+            //bool result1 = (!A || !B) && !C;
+            //bool result2 = (!A || !B) && (A || B);
+            //bool result3 = A && B || A && C || !C;
+
+            //Console.WriteLine($"The result is:\n1){result1}\n2){result2}\n3){result3}");
 
             ////Таблицы истинности:
 
@@ -120,6 +170,23 @@ namespace TasksCsharp.CSharp.pro
             ////а) не(А и В);
             ////б) не А или В;
             ////в) А или не В.
+
+            //var random = new Random();
+            //var randomBool = random.Next(2) == 1;
+
+            //bool A = randomBool, B = randomBool;
+
+            //Console.WriteLine($"Generated values:A = {A}, B = {B}");
+            //bool result1 = !(A && B);
+            //Console.WriteLine($"Generated values:A = {A}, B = {B}");
+            //bool result2 = !A || B;
+            //Console.WriteLine($"Generated values:A = {A}, B = {B}");
+            //bool result3 = A || !B;
+
+            //Console.WriteLine($"The result is:\n1){result1}\n2){result2}\n3){result3}");
+
+
+
 
             ////L1.12.Вычислить значение логического выражения при всех возможных значениях логических величин X и Y:
             ////а) не(X или Y);
@@ -199,6 +266,24 @@ namespace TasksCsharp.CSharp.pro
             ////ж) x > 3 или x< 1;
             ////з) 0 < y < 4 и x< 5;
             ////и) х > 3  и x< 10.
+            ///
+            //Console.WriteLine("Please, enter x");
+            //double x = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter y");
+            //double y = double.Parse(Console.ReadLine());
+
+            //bool result1 = x < 2 && y < 3;
+            //bool result2 = !(x<2);
+            //bool result3 = x < 1 || y <2;
+            //bool result4 = !(x <0 && x < 5);
+            //bool result5 = x < 0 && y > 5;
+            //bool result6 = (10 < x) && (x < 20);
+            //bool result7 = x > 3 && x < 1;
+            //bool result8 = (0 < y)&&(y < 4) && x< 5;
+            //bool result9 = x > 3 && x < 10;
+
+            //Console.WriteLine($"The result is:\n1) {result1}\n2) {result2}\n3) {result3}\n4) {result4}\n5) {result5}\n6) {result6}\n7) {result7}\n8) {result8}\n9) {result9}");
+
 
             ////L2.2.Записать условие, которое является истинным, когда:
             ////а) каждое из чисел А и В больше 100;
@@ -239,7 +324,11 @@ namespace TasksCsharp.CSharp.pro
             ////Примечание.Черные пешки перемещаются на доске сверху вниз.
             ////ж) На поле(a, b) расположен конь. Записать условие, при котором он угрожает полю(c, d).
 
-            ////L2.7.Поле шахматной доски определяется парой натуральных чисел, каждое из которых не превосходит 8: первое число — номер вертикали(при счете слева направо), второе — номер горизонтали(при счете снизу вверх). Даны натуральные числа a, b, c, d, e, f, каждое из которых не превосходит 8.Записать условие, при котором белая фигура, расположенная на поле(a, b), может одним ходом пойти на поле(e, f), не попав при этом под удар черной фигуры, находящейся на поле(c, d). Рассмотреть следующие варианты сочетаний белой и черной фигур:
+            ////L2.7.Поле шахматной доски определяется парой натуральных чисел, каждое из которых не превосходит 8: 
+            ///первое число — номер вертикали(при счете слева направо), второе — номер горизонтали(при счете снизу вверх). 
+            ///Даны натуральные числа a, b, c, d, e, f, каждое из которых не превосходит 8.
+            ///Записать условие, при котором белая фигура, расположенная на поле(a, b), может одним ходом пойти на поле(e, f), 
+            ///не попав при этом под удар черной фигуры, находящейся на поле(c, d). Рассмотреть следующие варианты сочетаний белой и черной фигур:
             ////а) ладья и ладья;
             ////б) ладья и ферзь;
             ////в) ладья и конь;
