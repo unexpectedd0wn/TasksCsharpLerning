@@ -124,9 +124,15 @@ namespace TasksCsharp.CSharp.pro
             //S2.4.Считая, что Земля — идеальная сфера с радиусом R = 6350 км,
             //определить расстояние до линии горизонта от точки В с заданной высотой h = AB над Землей.
 
-            //double R = 6350;
+            double R = 6350;
 
+            Console.WriteLine("Please, enter h:");
+            double h = double.Parse(Console.ReadLine());
+            double result = Math.Round(Math.Sqrt(Math.Pow((R + h), 2) - Math.Pow(R, 2)));
 
+            Console.WriteLine($"The result is: {result}");
+
+                                                                                                                                                                                                                                            
             //S2.5.Дана длина ребра куба.Найти объем куба и площадь его боковой поверхности. — решение
 
             //S2.6.Дан радиус окружности. Найти длину окружности и площадь круга.
