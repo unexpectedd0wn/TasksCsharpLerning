@@ -359,11 +359,22 @@ namespace TasksCsharp.CSharp.pro
             //r *= a;//16384
             //r *= r;//268435456
             //Console.WriteLine(r);
-            
+
 
 
             //S3.5.Чему будет равно 1010 по Вашему алгоритму ?
 
+            //double r, a = 10;
+            ////10 000 000 000
+
+            //r = a*a;//100
+            //Console.WriteLine(r);
+            //r *= r;//10000
+            //Console.WriteLine(r);
+            //r *= r;//100000000
+            //Console.WriteLine(r);
+            //r *= a*a;//10 000 000 000
+            //Console.WriteLine(r);
         }
     }
 }
