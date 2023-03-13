@@ -37,9 +37,27 @@ namespace TasksCsharp.CSharp.pro
             ////I1.2.Даны два различных вещественных числа. Определить:
             ////а) какое из них больше;
             ////б) какое из них меньше.
+            ///
+            //Console.WriteLine("Please, enter numer1: ");
+            //double number1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter numer2: ");
+            //double number2 = double.Parse(Console.ReadLine());
+
+            //if (number1 == 0 || number2 == 0)
+            //{
+            //    Console.WriteLine($"Number's should not be equal to 0");
+            //}
+            //else if (number1 > number2)
+            //{
+            //    Console.WriteLine($"The number {number1} is greater than {number2}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine($"The number {number2} is greater than {number1}");
+            //}
 
             ////I1.3.Определить максимальное и минимальное значения из двух различных вещественных чисел.
-                                                                                        
+
             ////I1.4.Известны два расстояния: одно в километрах, другое — в футах(1 фут 0,305 м). Какое из расстояний меньше?
 
             ////I1.5.Известны две скорости: одна в километрах в час, другая — в метрах в секунду. Какая из скоростей больше?
