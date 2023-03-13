@@ -169,8 +169,16 @@ namespace TasksCsharp.CSharp.pro
 
             //double p = m / v;
             //Console.WriteLine($"The result is: P = {p}");
+
             //S2.9.Известны количество жителей в государстве и площадь его территории. Определить плотность населения в этом государстве.
 
+            //Console.WriteLine("Please, enter the number of inhabitants in the state: ");
+            //double inhab = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter the size of its territory: ");
+            //double size = double.Parse(Console.ReadLine());
+            //double pop = Math.Round((inhab/size),2);
+
+            //Console.WriteLine($"The population density equals: {pop} ");
 
 
             //S2.10.Составить программу решения линейного уравнения ax + b = 0(a ≠ 0).
@@ -230,6 +238,18 @@ namespace TasksCsharp.CSharp.pro
             //следующим двум схемам: — есть решение.
             //а) b присвоить значение c, а присвоить значение b, с присвоить значение а;
             //б) b присвоить значение а, с присвоить значение b, а присвоить значение с.
+
+            //double a = 1, b = 2, c = 3, buffer;
+            //buffer = a;
+            
+            //b = c; //c=2
+            //a = b; //b =1
+            //c = a;
+            //Console.WriteLine($"The result is: {a},{b},{c}");
+
+            //b = a; c = b; a = c;
+            //Console.WriteLine($"The result is: {a},{b},{c}");
+
 
             //S3.3.Дано вещественное число а.Пользуясь только операцией умножения, получить:
             //а) a4 за две операции;
