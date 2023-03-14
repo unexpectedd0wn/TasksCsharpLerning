@@ -306,91 +306,116 @@ namespace TasksCsharp.CSharp.pro
         {
             ////C2.1.Найти:
             ////а) сумму всех целых чисел от 100 до 500;
-            //int sum = 0;
-            //for (int i = 100; i < 501; i++)
-            //{
-            //    sum += i;
-            //    Console.WriteLine(sum);
-            //}
+                //int sum = 0;
+                //for (int i = 100; i < 501; i++)
+                //{
+                //    sum += i;
+                //    Console.WriteLine(sum);
+                //}
 
             ////б) сумму всех целых чисел от a до 500(значение a вводится с клавиатуры; a < 500);
-            //Console.WriteLine("Please, enter a: ");
-            //int a = int.Parse(Console.ReadLine());
-            //int sum = 0;
-            //for (int i = a; i < 501; i++)
-            //{
-            //    if (a < 500)
-            //    {
-            //        sum += i;
-            //        Console.WriteLine(sum);
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("a should be less than 500");
-            //    }
-            //}
+                //Console.WriteLine("Please, enter a: ");
+                //int a = int.Parse(Console.ReadLine());
+                //int sum = 0;
+                //for (int i = a; i < 501; i++)
+                //{
+                //    if (a < 500)
+                //    {
+                //        sum += i;
+                //        Console.WriteLine(sum);
+                //    }
+                //    else
+                //    {
+                //        Console.WriteLine("a should be less than 500");
+                //    }
+                //}
+            
             ////в) сумму всех целых чисел от –10 до b(значение b вводится с клавиатуры; b >–10);
 
-            //Console.WriteLine("Please, enter b: ");
-            //int b = int.Parse(Console.ReadLine());
-            //int sum = 0;
-            //for (int i = -10; i <= b; i++)
-            //{
-            //    if (b > -10)
-            //    {
-            //        sum += i;
-            //        Console.WriteLine(sum);
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("b should be greater than -10");
-            //    }
-            //}
+                //Console.WriteLine("Please, enter b: ");
+                //int b = int.Parse(Console.ReadLine());
+                //int sum = 0;
+                //for (int i = -10; i <= b; i++)
+                //{
+                //    if (b > -10)
+                //    {
+                //        sum += i;
+                //        Console.WriteLine(sum);
+                //    }
+                //    else
+                //    {
+                //        Console.WriteLine("b should be greater than -10");
+                //    }
+                //}
 
             ////г) сумму всех целых чисел от a до b(значения a и b вводятся с клавиатуры; b > a).
-            ///
-            //Console.WriteLine("Please, enter a: ");
-            //int a = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Please, enter b: ");
-            //int b = int.Parse(Console.ReadLine());
-            //int sum = 0;
-            //for (int i = a; i <= b; i++)
-            //{
-            //    sum += i;
-            //    Console.WriteLine(sum);
-            //}
+            
+                //Console.WriteLine("Please, enter a: ");
+                //int a = int.Parse(Console.ReadLine());
+                //Console.WriteLine("Please, enter b: ");
+                //int b = int.Parse(Console.ReadLine());
+                //int sum = 0;
+                //for (int i = a; i <= b; i++)
+                //{
+                //    sum += i;
+                //    Console.WriteLine(sum);
+                //}
 
 
             ////C2.2.Найти:
             ////а) произведение всех целых чисел от 8 до 15;
-            ///
-            int mult = 1;
-            for (int i = 8; i < 16; i++)
-            {
-                mult *= i;
-                Console.WriteLine(mult);
-             }
-                ////б) произведение всех целых чисел от a до 20(значение a вводится с клавиатуры; 1 <= a <= 20);
+            
+                //int mult = 1;
+                //for (int i = 8; i < 16; i++)
+                //{
+                //    mult *= i;
+                //    Console.WriteLine(mult);
+                // }
+            
+            ////б) произведение всех целых чисел от a до 20(значение a вводится с клавиатуры; 1 <= a <= 20);
 
-                Console.WriteLine("Please, enter a: ");
-            int a = int.Parse(Console.ReadLine());
-            int mult = 1;
+                //Console.WriteLine("Please, enter a: ");
+                //int a = int.Parse(Console.ReadLine());
+                //int mult = 1;
 
-            if ((a <= 20) && (a >= 1))
-            {
-                for (int i = a; i < 21; i++)
-                {
-                    mult *= i;
-                    Console.WriteLine(mult);
-                }
-            }
-            else
-            {
-                Console.WriteLine("a should be greater than 1 and less than 20");
-            }
+                //if ((a <= 20) && (a >= 1))
+                //{
+                //    for (int i = a; i < 21; i++)
+                //    {
+                //        mult *= i;
+                //        Console.WriteLine(mult);
+                //    }
+                //}
+                //else
+                //{
+                //    Console.WriteLine("a should be greater than 1 and less than 20");
+                //}
 
             ////в) произведение всех целых чисел от 1 до b(значение b вводится с клавиатуры; 1 <= b <= 20);
+
+                //Console.WriteLine("Please, enter b");
+                //int b = int.Parse(Console.ReadLine());
+
+                //int mult = 1;
+                //for (int i = 1; i <= b; i++)
+                //{
+                //    mult *= i;
+                //    Console.WriteLine(mult);
+                //}
+
             ////г) произведение всех целых чисел от a до b(значения a и b вводятся с клавиатуры; b > a).
+                //Console.WriteLine("Please, enter a");
+                //int a = int.Parse(Console.ReadLine());
+            
+                //Console.WriteLine("Please, enter b");
+                //int b = int.Parse(Console.ReadLine());
+
+                //int mult = 1;
+                //for (int i = a; i <= b; i++)
+                //{
+                //    mult *= i;
+                //    Console.WriteLine(mult);
+                //}
 
             ////C2.3.Найти:
             ////а) среднее арифметическое всех целых чисел от 1 до 1000;
