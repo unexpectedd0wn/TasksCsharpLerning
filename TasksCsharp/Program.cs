@@ -16,7 +16,8 @@ namespace TasksCsharp
             //_L.L1();
             //_L.L2();
             //_I.I1();
-            _C.C1();
+            //_C.C1();
+            _C.C2();
         }
     }
 }
