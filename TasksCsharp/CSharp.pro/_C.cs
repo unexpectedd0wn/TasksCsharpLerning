@@ -372,22 +372,22 @@ namespace TasksCsharp.CSharp.pro
             //}
             ////б) произведение всех целых чисел от a до 20(значение a вводится с клавиатуры; 1 <= a <= 20);
 
-            //Console.WriteLine("Please, enter a: ");
-            //int a = int.Parse(Console.ReadLine());
-            //int mult = 1;
+            Console.WriteLine("Please, enter a: ");
+            int a = int.Parse(Console.ReadLine());
+            int mult = 1;
 
-            //if ((a <= 20) &&(a >= 1))
-            //{
-            //    for (int i = a; i < 21; i++)
-            //    {
-            //        mult *= i;
-            //        Console.WriteLine(mult);
-            //    }
-            //}
-            //else
-            //{
-            //    Console.WriteLine("a should be greater than 1 and less than 20");
-            //}
+            if ((a <= 20) && (a >= 1))
+            {
+                for (int i = a; i < 21; i++)
+                {
+                    mult *= i;
+                    Console.WriteLine(mult);
+                }
+            }
+            else
+            {
+                Console.WriteLine("a should be greater than 1 and less than 20");
+            }
 
             ////в) произведение всех целых чисел от 1 до b(значение b вводится с клавиатуры; 1 <= b <= 20);
             ////г) произведение всех целых чисел от a до b(значения a и b вводятся с клавиатуры; b > a).
