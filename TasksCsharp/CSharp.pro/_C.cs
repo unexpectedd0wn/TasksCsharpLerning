@@ -364,15 +364,15 @@ namespace TasksCsharp.CSharp.pro
             ////C2.2.Найти:
             ////а) произведение всех целых чисел от 8 до 15;
             ///
-            //int mult = 1;
-            //for (int i = 8; i < 16; i++)
-            //{
-            //    mult*=i;
-            //    Console.WriteLine(mult);
-            //}
-            ////б) произведение всех целых чисел от a до 20(значение a вводится с клавиатуры; 1 <= a <= 20);
+            int mult = 1;
+            for (int i = 8; i < 16; i++)
+            {
+                mult *= i;
+                Console.WriteLine(mult);
+             }
+                ////б) произведение всех целых чисел от a до 20(значение a вводится с клавиатуры; 1 <= a <= 20);
 
-            Console.WriteLine("Please, enter a: ");
+                Console.WriteLine("Please, enter a: ");
             int a = int.Parse(Console.ReadLine());
             int mult = 1;
 
