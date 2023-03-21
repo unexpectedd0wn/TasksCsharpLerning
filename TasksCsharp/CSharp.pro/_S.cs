@@ -243,38 +243,218 @@ namespace TasksCsharp.CSharp.pro
 
             //S2.14.Даны основания и высота равнобедренной трапеции.Найти ее периметр.
 
-            //S2.14А.Даны стороны прямоугольника.Найти его периметр и длину диагонали.
+            //Console.WriteLine("Please, enter H: ");
+            //double h = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter F1: ");
+            //double f1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter F2: ");
+            //double f2 = double.Parse(Console.ReadLine());
+            //double p = Math.Round(2 * h + (f1 * f2), 2);
+            //Console.WriteLine($"The perimtr is: {p}");
 
-            //S2.15.Даны два числа. Найти их сумму, разность, произведение, а также частное от деления первого числа на второе.
+            //S2.14А.Даны стороны прямоугольника.Найти его периметр и длину диагонали.
+            //Console.WriteLine("Please, enter s1");
+            //double s1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter s2");
+            //double s2 = double.Parse(Console.ReadLine());
+            //double p = 2 * (s1 + s2);
+            //double d = Math.Sqrt(Math.Pow(s1,2) + Math.Pow(s2,2));
+
+            //Console.WriteLine($"perimetr is: {p} and diagonal is: {d}");
+
+            //S2.15.Даны два числа.
+            //Найти их сумму, разность, произведение, а также частное от деления первого числа на второе.
+
+            Console.WriteLine("Please, enter a 1st number");
+            double n1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Please, enter a 2nd number");
+            double n2 = double.Parse(Console.ReadLine());
+
+            double amount = Math.Round(n1 + n2);
+
+            if (n2 > n1)
+            {
+                double dif = n2 - n1;
+            }
+            else
+            {
+                double dif = n1 - n2;
+            }
+
+            double mult = n1 * n2;
 
             //S2.16.Даны длины сторон прямоугольного параллелепипеда. Найти его объем и площадь боковой поверхности.
+            //int a, b, c, Sside, S;
+            //Console.WriteLine("Please, enter side a: ");
+            //a = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter side b: ");
+            //b = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter side c: ");
+            //c = int.Parse(Console.ReadLine());
+            //Sside = 2(a * b + a * c);
+            //S = 2(a * b + a * c + b * c);
+            //Console.WriteLine($"The result is: S = {S}, and S of the side is {Sside}");
 
             //S2.17.Известны координаты на плоскости двух точек.Составить программу вычисления расстояния между ними.
+            //int x1, x2, y1, y2, l;
+            //string c1, c2;
+            //Console.WriteLine("Please, enter a coordinates for 1st point (x,y)");
+            //c1 = Console.ReadLine();
+            //x1 = Convert.ToInt32(c1.Split(',')[0]);
+            //y1 = Convert.ToInt32(c1.Split(',')[0]);
+            //Console.WriteLine("Please, enter a coordinates for 2nd point (x,y)");
+            //c2 = Console.ReadLine();
+            //x2 = Convert.ToInt32(c1.Split(',')[0]);
+            //y2 = Convert.ToInt32(c1.Split(',')[0]);
+            //l = Math.Sqrt((Math.Pow((x2 - x1), 2) + (Math.Pow((y2 - y1), 2));
+            //Console.WriteLine($"The result is: {l}");
 
             //S2.18.Даны основания и высота равнобедренной трапеции.Найти периметр трапеции.
+            //int a,b,c,P;
+            //string value;
+            //Console.WriteLine("Please, enter hight, base 1 and base 2,comma separated like (1,2,3) :");
+            //value = Console.ReadLine();
+            //a = Convert.ToInt32(value.Split(',')[0]);
+            //b = Convert.ToInt32(value.Split(',')[1]);
+            //c = Convert.ToInt32(value.Split(',')[2]);
+
+            //P = 2*a + b + c;
+
+            //Console.WriteLine(P);
 
             //S2.19.Даны основания равнобедренной трапеции и угол при большем основании. Найти площадь трапеции.
+            //double a, b, angle, S;
+            //string input;
+            //Console.WriteLine("Please, enter  base1, base 2 and angle, comma separated, for example (1,2,3)");
+
+            //input = Console.ReadLine();
+            //a = Convert.ToDouble(input.Split(',')[0]);
+            //b = Convert.ToDouble(input.Split(',')[1]);
+            //angle = Convert.ToDouble(input.Split(',')[2]);
+
+            //S = 0.5 * (Math.Pow((b),2) - Math.Pow((a),2)) * Math.Tan(angle);
+
+            //Console.WriteLine(S);
 
             //S2.20.Треугольник задан координатами своих вершин. Найти периметр и площадь треугольника.
+            //Console.WriteLine("Please, enter x1: ");
+            //double x1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter y1: ");
+            //double y1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter x2: ");
+            //double x2 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter y2: ");
+            //double y2 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter x3: ");
+            //double x3 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter y3: ");
+            //double y3 = double.Parse(Console.ReadLine());
+
+            //double a = Math.Sqrt(x2-x1)
 
             //S2.21.Выпуклый четырехугольник задан координатами своих вершин.Найти площадь этого четырехугольника как сумму площадей треугольников.
 
+            //Console.WriteLine("Please, enter the coordinates of the A vertex of the quadrilateral (x,y): ");
+            //string vertex1 = Console.ReadLine();
+            //double x1 = Convert.ToDouble(vertex1.Split(',')[0]);
+            //double y1 = Convert.ToDouble(vertex1.Split(',')[1]);
+            //Console.WriteLine("Please, enter the coordinates of the B vertex of the quadrilateral (x,y): ");
+            //string vertex2 = Console.ReadLine();
+            //double x2 = Convert.ToDouble(vertex2.Split(',')[0]);
+            //double y2 = Convert.ToDouble(vertex2.Split(',')[1]);
+            //Console.WriteLine("Please, enter the coordinates of the C vertex of the quadrilateral (x,y): ");
+            //string vertex3 = Console.ReadLine();
+            //double x3 = Convert.ToDouble(vertex2.Split(',')[0]);
+            //double y3 = Convert.ToDouble(vertex2.Split(',')[1]);
+            //Console.WriteLine("Please, enter the coordinates of the D vertex of the quadrilateral (x,y): ");
+            //string vertex4 = Console.ReadLine();
+            //double x3 = Convert.ToDouble(vertex2.Split(',')[0]);
+            //double y4 = Convert.ToDouble(vertex2.Split(',')[1]);
+
+
             //S2.22.Известна стоимость 1 кг конфет, печенья и яблок. Найти стоимость всей покупки, если купили x кг конфет, у кг печенья и z кг яблок.
+
+            //const double candyPrice = 236.45;
+            //const double bisquitPrice = 174.36;
+            //const double applePrice = 54.20;
+
+            //Console.WriteLine("How many kilos of candys do you want to buy: ");
+            //double candyWeight = double.Parse(Console.ReadLine());
+            //Console.WriteLine("How many kilos of bisquit do you want to buy: ");
+            //double bisquitWeight = double.Parse(Console.ReadLine());
+            //Console.WriteLine("How many kilos of apples do you want to buy: ");
+            //double appleWeight = double.Parse(Console.ReadLine());
+
+            //double candyTotalPrice = Math.Round((candyPrice * candyWeight),2);
+            //double bisquitTotalPrice = Math.Round((bisquitPrice * bisquitWeight),2);
+            //double appleTotalPrice = Math.Round((applePrice * appleWeight),2);
+
+            //Console.WriteLine($"The Total price for {candyWeight} candys is {candyTotalPrice}\nThe Total price for {bisquitWeight} candys is {bisquitTotalPrice}\nThe Total price for {appleWeight} candys is {appleTotalPrice}");
+
+
 
             //S2.23.Известна стоимость монитора, системного блока, клавиатуры и мыши.
             //Сколько будут стоить 3 компьютера из этих элементов? N компьютеров?
 
+            //Console.WriteLine("Please, enter price for monitor: ");
+            //decimal monitorPrice = decimal.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter price for block: ");
+            //decimal blockPrice = decimal.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter price for keyboard: ");
+            //decimal keyboardPrice = decimal.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter price for mause: ");
+            //decimal mausePrice = decimal.Parse(Console.ReadLine());
+            //Console.WriteLine("How many computers do you want to buy: ");
+            //int computersN = int.Parse(Console.ReadLine());
+
+            //decimal totalPrice = (monitorPrice + blockPrice + keyboardPrice + mausePrice)*computersN;
+            //Console.WriteLine($"The total price for {computersN} will be {totalPrice}");
 
             //S2.24.Возраст Тани — X лет, а возраст Мити — Y лет. Найти их средний возраст, а также определить, на сколько отличается возраст каждого ребенка от среднего значения.  —  решение
 
+            //Console.WriteLine("Please, enter Tanya's age");
+            //int tanyaAge = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter Mitya's age");
+            //int mityaAge = int.Parse(Console.ReadLine());
+            //int ageAverage = (tanyaAge + mityaAge) / 2;
+            //int diferenceTanya = tanyaAge - ageAverage;
+            //int diferenceMitya = mityaAge - ageAverage;
+
+            //Console.WriteLine($"The average Ages is: {ageAverage}\n The difference between Tanya's age and aveerage is: {diferenceTanya} \n The difference between Mitya's age and aveerage is: {diferenceMitya}");
+
+
+
             //S2.25.Два автомобиля едут навстречу друг другу с постоянными скоростями V1 и  V2 км/ час.Определить, через какое время автомобили встретятся, если расстояние между ними было S км.
+
+            //Console.WriteLine($"Please, enter 1st vehicle speed (km/h): ");
+            //double v1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"Please, enter 2nd vehicle speed (km/h): ");
+            //double v2 = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"Please, enter distance (km): ");
+            //double S = double.Parse(Console.ReadLine());
+            //double Vc = v1 + v2;
+            //double t = S / Vc;
+            //Console.WriteLine($"The time whene vehicles will meet is: {t}");
 
             //S2.26.Два автомобиля едут друг за другом с постоянными скоростями V1 и  V2 км/ час(V1 > V2).Определить, какое расстояние будет между ними через 30 минут после того, как первый автомобиль опередил второй на S км.
 
             //S2.27.Известно значение температуры по шкале Цельсия.Найти соответствующее  значение температуры по шкале: а) Фаренгейта; б) Кельвина.Для пересчета по шкале Фаренгейта необходимо исходное значение температуры умножить на 1,8 и к результату прибавить 32, а по шкале Кельвина абсолютное значение нуля соответствует 273,15 градуса по шкале Цельсия.
 
+            //double tempertureCe, tempertureFa, tempertureKe;
+            //const double valueKe = 273.15;
+            //Console.WriteLine("Please, enter temperature in celsius: ");
+            //tempertureCe = double.Parse(Console.ReadLine());
+            //tempertureFa = tempertureCe * 1.8 + 32;
+            //tempertureKe = (((tempertureFa - 32) * 5) / 9) + valueKe;
+
+            //Console.WriteLine($"The result is: \ntemperature in fahrenheit is: {tempertureFa}\ntemperature in Kelvin is: {tempertureKe}");
+
             //S2.28.У американского писателя-фантаста Рэя Бредбери есть роман «450 градусов по Фаренгейту».
             //Какой температуре по шкале Цельсия соответствует указанное в названии значение? (См.предыдущую задачу).
+
+            //const double tempertureF = 450;
+            //double tempertureC = Math.Round(((tempertureF - 32) / 1.8), 2);
+            //Console.WriteLine($"450 degrees Fahrenheit, equals degrees Celsius = {tempertureC}");
         }
         public static void S3()
         {
