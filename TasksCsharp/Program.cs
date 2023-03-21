@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TasksCsharp.CSharp.pro;
+using TasksCsharp.CodeWars;
 
 namespace TasksCsharp
 {
@@ -17,7 +18,8 @@ namespace TasksCsharp
             //_L.L2();
             //_I.I1();
             //_C.C1();
-            _C.C2();
+            //_C.C2();
         }
+
     }
 }

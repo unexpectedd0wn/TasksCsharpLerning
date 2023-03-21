@@ -48,6 +48,7 @@
     <Compile Include="CSharp.pro\_I.cs" />
     <Compile Include="CSharp.pro\_L.cs" />
     <Compile Include="CSharp.pro\_S.cs" />
+    <Compile Include="CSharp.pro\_W.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
