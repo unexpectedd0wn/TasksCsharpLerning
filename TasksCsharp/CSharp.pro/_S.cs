@@ -98,98 +98,148 @@ namespace TasksCsharp.CSharp.pro
             //а) вычисления значения функции y = 7x2 + 3x + 6 при любом значении x;
             //б) вычисления значения функции x = 12a2 + 7a + 12 при любом значении а.
 
-                //Random random = new Random();
-                //double x = random.NextDouble();
-                //double a = random.NextDouble();
+            //Random random = new Random();
+            //double x = random.NextDouble();
+            //double a = random.NextDouble();
 
-                //double resulty = Math.Round((7 * x * 2 + 3 * x + 6),2);
-                //double resultx = Math.Round((12 * a * 2 + 7 * a + 12),2);
+            //double resulty = Math.Round((7 * x * 2 + 3 * x + 6),2);
+            //double resultx = Math.Round((12 * a * 2 + 7 * a + 12),2);
 
-                //Console.WriteLine($"The result is:\n1){resulty}\n2){resultx}");
+            //Console.WriteLine($"The result is:\n1){resulty}\n2){resultx}");
 
             //S2.2.Дана сторона квадрата. Найти его периметр. — решение.
 
-                //Console.WriteLine("Please, enter a side of the square");
-                //double side = double.Parse(Console.ReadLine());
-                //Console.WriteLine($"Perimeter is: {side*4}");
+            //Console.WriteLine("Please, enter a side of the square");
+            //double side = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"Perimeter is: {side*4}");
 
 
             //S2.3.Дан радиус окружности. Найти ее диаметр. — решение.
 
-                //Console.WriteLine("Please, enter a radius of the circle");
-                //double radius = double.Parse(Console.ReadLine());
-                //Console.WriteLine($"Diameter is: {radius * 2}");
+            //Console.WriteLine("Please, enter a radius of the circle");
+            //double radius = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"Diameter is: {radius * 2}");
 
             //S2.4.Считая, что Земля — идеальная сфера с радиусом R = 6350 км,
             //определить расстояние до линии горизонта от точки В с заданной высотой h = AB над Землей.
 
-                //double R = 6350;
+            //double R = 6350;
 
-                //Console.WriteLine("Please, enter h:");
-                //double h = double.Parse(Console.ReadLine());
-                //double result = Math.Round(Math.Sqrt(Math.Pow((R + h), 2) - Math.Pow(R, 2)));
+            //Console.WriteLine("Please, enter h:");
+            //double h = double.Parse(Console.ReadLine());
+            //double result = Math.Round(Math.Sqrt(Math.Pow((R + h), 2) - Math.Pow(R, 2)));
 
-                //Console.WriteLine($"The result is: {result}");
+            //Console.WriteLine($"The result is: {result}");
 
 
             //S2.5.Дана длина ребра куба.Найти объем куба и площадь его боковой поверхности. — решение
 
-                //Console.WriteLine("Please, enter L:");
-                //double l = double.Parse(Console.ReadLine());
-                //double v = Math.Round(Math.Pow(l,3));
-                //double s = Math.Round(Math.Pow(l, 2));
-                //Console.WriteLine($"The result is:\nV = {v} and S = {s}");
+            //Console.WriteLine("Please, enter L:");
+            //double l = double.Parse(Console.ReadLine());
+            //double v = Math.Round(Math.Pow(l,3));
+            //double s = Math.Round(Math.Pow(l, 2));
+            //Console.WriteLine($"The result is:\nV = {v} and S = {s}");
 
             ////S2.6.Дан радиус окружности. Найти длину окружности и площадь круга.
-                //double pi = 3.14;
-                //Console.WriteLine("Please, enter R");
-                //double r = double.Parse(Console.ReadLine());
-                //double l = Math.Round(2 * (pi * r));
-                //double s = Math.Round(Math.Pow((pi * r),2));
-                //Console.WriteLine($"The result is: L = {l} and S = {s}");
+            //double pi = 3.14;
+            //Console.WriteLine("Please, enter R");
+            //double r = double.Parse(Console.ReadLine());
+            //double l = Math.Round(2 * (pi * r));
+            //double s = Math.Round(Math.Pow((pi * r),2));
+            //Console.WriteLine($"The result is: L = {l} and S = {s}");
 
             // S2.7.Даны два целых числа.Найти: а) их среднее арифметическое; б) их среднее геометрическое.
-                //Console.WriteLine("Please, enter 1st namer: ");
-                //double number1 = double.Parse(Console.ReadLine());
-                //Console.WriteLine("Please, enter 2nd number");
-                //double number2 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter 1st namer: ");
+            //double number1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter 2nd number");
+            //double number2 = double.Parse(Console.ReadLine());
 
-                //double avg = (number1 + number2) / 2;
-                //double gavg = Math.Sqrt(number1 * number2);
+            //double avg = (number1 + number2) / 2;
+            //double gavg = Math.Sqrt(number1 * number2);
 
-                //Console.WriteLine($"The result is: Math avg = {avg} and Gavg = {gavg}");
+            //Console.WriteLine($"The result is: Math avg = {avg} and Gavg = {gavg}");
 
             //S2.8.Известны объем и масса тела. Определить плотность материала этого тела.
 
-                //Console.WriteLine("Please, enter m:");
-                //double m = double.Parse(Console.ReadLine());
-                //Console.WriteLine("Please, enter V:");
-                //double v = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter m:");
+            //double m = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter V:");
+            //double v = double.Parse(Console.ReadLine());
 
-                //double p = m / v;
-                //Console.WriteLine($"The result is: P = {p}");
+            //double p = m / v;
+            //Console.WriteLine($"The result is: P = {p}");
 
             //S2.9.Известны количество жителей в государстве и площадь его территории. Определить плотность населения в этом государстве.
 
-                //Console.WriteLine("Please, enter the number of inhabitants in the state: ");
-                //double inhab = double.Parse(Console.ReadLine());
-                //Console.WriteLine("Please, enter the size of its territory: ");
-                //double size = double.Parse(Console.ReadLine());
-                //double pop = Math.Round((inhab/size),2);
+            //Console.WriteLine("Please, enter the number of inhabitants in the state: ");
+            //double inhab = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter the size of its territory: ");
+            //double size = double.Parse(Console.ReadLine());
+            //double pop = Math.Round((inhab/size),2);
 
-                //Console.WriteLine($"The population density equals: {pop} ");
+            //Console.WriteLine($"The population density equals: {pop} ");
 
 
             //S2.10.Составить программу решения линейного уравнения ax + b = 0(a ≠ 0).
 
+            //Console.WriteLine("Please, enter a");
+            //double a = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter b");
+            //double b = double.Parse(Console.ReadLine());
+
+            //if (a != 0)
+            //{
+            //    Console.WriteLine($"The result is, x = {-Math.Abs(b)/a}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("a could not be equal 0");
+            //}
+
 
             //S2.11.Даны катеты прямоугольного треугольника.Найти его гипотенузу.
 
+            //Console.WriteLine("Please, enter a");
+            //double a = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter b");
+            //double b = double.Parse(Console.ReadLine());
+
+            //double result = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
+            //Console.WriteLine($"The result is, c = {result}");
+
+
             //S2.12.Найти площадь кольца по заданным внешнему и внутреннему радиусам.
+
+            //double pi = 3.14;
+            //Console.WriteLine("Please, enter R");
+            //double R = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter r");
+            //double r = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine($"The result is, S = {pi * (Math.Pow(R,2)- Math.Pow(r, 2))}");
+
 
             //S2.13.Даны катеты прямоугольного треугольника.Найти его периметр.
 
+            //Console.WriteLine("Please, enter a");
+            //double a = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter b");
+            //double b = double.Parse(Console.ReadLine());
+
+            //double p = Math.Sqrt(Math.Pow(a,2)+ Math.Pow(a, 2)) + a + b;
+            //Console.WriteLine($"The result is, P = {p}");
+
             //S2.13А.Даны два числа.Найти среднее арифметическое и среднее геометрическое их модулей.
+
+            //Console.WriteLine("Please, enter a");
+            //double a = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter b");
+            //double b = double.Parse(Console.ReadLine());
+
+            //double avg = (a+ b)/2;
+            //double geo = Math.Round(Math.Sqrt(Math.Abs(a)* Math.Abs(b)),2);
+
+            //Console.WriteLine($"The result is, avg = {avg} and geo = {geo}");
 
             //S2.14.Даны основания и высота равнобедренной трапеции.Найти ее периметр.
 
