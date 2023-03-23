@@ -11,8 +11,24 @@ namespace TasksCsharp.CSharp.pro
         public static void A1()
         {
             ////A1.1.Дано расстояние в сантиметрах.Найти число полных метров в нем.
+
+            //Console.WriteLine("Please, enter the lenth in cm");
+            //double lenth = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"The lenth in the m = {lenth*100}");
+
+
             ////A1.2.Дана масса в килограммах.Найти число полных центнеров в ней.
+
+            //Console.WriteLine("Please, enter the mass in kg");
+            //double weight = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"The lenth in the m = {weight/100}");
+
             ////A1.3.Дана масса в килограммах.Найти число полных тонн в ней.
+
+            //Console.WriteLine("Please, enter the mass in kg");
+            //double weight = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"The lenth in the m = {weight / 1000}");
+
             ////A1.4.Дано расстояние в метрах.Найти число полных километров в нем.
             ////A1.5.С некоторого момента прошло 234 дня.Сколько полных недель прошло за этот период?
             ////A1.6.С начала суток прошло n секунд.Определить:

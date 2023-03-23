@@ -265,23 +265,23 @@ namespace TasksCsharp.CSharp.pro
             //S2.15.Даны два числа.
             //Найти их сумму, разность, произведение, а также частное от деления первого числа на второе.
 
-            Console.WriteLine("Please, enter a 1st number");
-            double n1 = double.Parse(Console.ReadLine());
-            Console.WriteLine("Please, enter a 2nd number");
-            double n2 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter a 1st number");
+            //double n1 = double.Parse(Console.ReadLine());
+            //Console.WriteLine("Please, enter a 2nd number");
+            //double n2 = double.Parse(Console.ReadLine());
 
-            double amount = Math.Round(n1 + n2);
+            //double amount = Math.Round(n1 + n2);
 
-            if (n2 > n1)
-            {
-                double dif = n2 - n1;
-            }
-            else
-            {
-                double dif = n1 - n2;
-            }
+            //if (n2 > n1)
+            //{
+            //    double dif = n2 - n1;
+            //}
+            //else
+            //{
+            //    double dif = n1 - n2;
+            //}
 
-            double mult = n1 * n2;
+            //double mult = n1 * n2;
 
             //S2.16.Даны длины сторон прямоугольного параллелепипеда. Найти его объем и площадь боковой поверхности.
             //int a, b, c, Sside, S;
@@ -436,25 +436,33 @@ namespace TasksCsharp.CSharp.pro
             //double t = S / Vc;
             //Console.WriteLine($"The time whene vehicles will meet is: {t}");
 
-            //S2.26.Два автомобиля едут друг за другом с постоянными скоростями V1 и  V2 км/ час(V1 > V2).Определить, какое расстояние будет между ними через 30 минут после того, как первый автомобиль опередил второй на S км.
+            //S2.26.Два автомобиля едут друг за другом с постоянными скоростями V1 и  V2 км/ час(V1 > V2).
+            //Определить, какое расстояние будет между ними через 30 минут после того, как первый автомобиль опередил
+            //второй на S км.
 
-            //S2.27.Известно значение температуры по шкале Цельсия.Найти соответствующее  значение температуры по шкале: а) Фаренгейта; б) Кельвина.Для пересчета по шкале Фаренгейта необходимо исходное значение температуры умножить на 1,8 и к результату прибавить 32, а по шкале Кельвина абсолютное значение нуля соответствует 273,15 градуса по шкале Цельсия.
+                //Console.WriteLine("Please, enter V1: ");
+                //double v1 = double.Parse(Console.ReadLine());
+                //Console.WriteLine("Please, enter V2: ");
+                //double v2 = double.Parse(Console.ReadLine());
 
-            //double tempertureCe, tempertureFa, tempertureKe;
-            //const double valueKe = 273.15;
-            //Console.WriteLine("Please, enter temperature in celsius: ");
-            //tempertureCe = double.Parse(Console.ReadLine());
-            //tempertureFa = tempertureCe * 1.8 + 32;
-            //tempertureKe = (((tempertureFa - 32) * 5) / 9) + valueKe;
+                //const t = 30;
 
-            //Console.WriteLine($"The result is: \ntemperature in fahrenheit is: {tempertureFa}\ntemperature in Kelvin is: {tempertureKe}");
+            ////S2.27.Известно значение температуры по шкале Цельсия.Найти соответствующее  значение температуры по шкале: а) Фаренгейта; б) Кельвина.Для пересчета по шкале Фаренгейта необходимо исходное значение температуры умножить на 1,8 и к результату прибавить 32, а по шкале Кельвина абсолютное значение нуля соответствует 273,15 градуса по шкале Цельсия.
 
-            //S2.28.У американского писателя-фантаста Рэя Бредбери есть роман «450 градусов по Фаренгейту».
-            //Какой температуре по шкале Цельсия соответствует указанное в названии значение? (См.предыдущую задачу).
+                //double tempertureCe, tempertureFa, tempertureKe;
+                //const double valueKe = 273.15;
+                //Console.WriteLine("Please, enter temperature in celsius: ");
+                //tempertureCe = double.Parse(Console.ReadLine());
+                //tempertureFa = tempertureCe * 1.8 + 32;
+                //tempertureKe = (((tempertureFa - 32) * 5) / 9) + valueKe;
+                //Console.WriteLine($"The result is: \ntemperature in fahrenheit is: {tempertureFa}\ntemperature in Kelvin is: {tempertureKe}");
 
-            //const double tempertureF = 450;
-            //double tempertureC = Math.Round(((tempertureF - 32) / 1.8), 2);
-            //Console.WriteLine($"450 degrees Fahrenheit, equals degrees Celsius = {tempertureC}");
+            ////S2.28.У американского писателя-фантаста Рэя Бредбери есть роман «450 градусов по Фаренгейту».
+            ////Какой температуре по шкале Цельсия соответствует указанное в названии значение? (См.предыдущую задачу).
+
+                //const double tempertureF = 450;
+                //double tempertureC = Math.Round(((tempertureF - 32) / 1.8), 2);
+                //Console.WriteLine($"450 degrees Fahrenheit, equals degrees Celsius = {tempertureC}");
         }
         public static void S3()
         {
