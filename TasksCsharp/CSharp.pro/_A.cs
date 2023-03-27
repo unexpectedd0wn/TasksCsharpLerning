@@ -30,11 +30,36 @@ namespace TasksCsharp.CSharp.pro
             //Console.WriteLine($"The lenth in the m = {weight / 1000}");
 
             ////A1.4.Дано расстояние в метрах.Найти число полных километров в нем.
+
+            //Console.WriteLine("Please, enter distance in m");
+            //double distace = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"The entered distance in the km = {distace / 1000}");
+
             ////A1.5.С некоторого момента прошло 234 дня.Сколько полных недель прошло за этот период?
+
+            //double somedays = 234;
+            //double result2 = Math.Round(somedays / 7);
+            //Console.WriteLine($"The full weeks left {result2}");
+
             ////A1.6.С начала суток прошло n секунд.Определить:
             ////а) сколько полных часов прошло с начала суток;
+
+            //Console.WriteLine("Please, enter how much seconds have passed ?");
+            //double seconds = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"The number of full hours = {Math.Round(seconds / 3600)}");
+
             ////б) сколько полных минут прошло с начала очередного часа;
+
+            //Console.WriteLine("Please, enter how much seconds have passed ?");
+            //double seconds = double.Parse(Console.ReadLine());
+            //Console.WriteLine($"The number of full minuts = {Math.Round(seconds / 60)}");
+
             ////в) сколько полных секунд прошло с начала очередной минуты.
+
+            Console.WriteLine("Please, enter how much seconds have passed ?");
+            double seconds = double.Parse(Console.ReadLine());
+            Console.WriteLine($"The number of full minuts = {Math.Round(seconds / 60)}");
+
             ////A1.7.Дан прямоугольник с размерами 543 х 130 мм.Сколько квадратов со стороной 130 мм можно отрезать от него?
             ////A1.8.Дано целое число k(1 ≤ k ≤ 365).Присвоить целочисленной величине n значение 1, 2, …, 6 или 0 в зависимости от того, на какой день недели(понедельник, вторник, …, субботу или воскресенье) приходится k-й день года, в котором 1 января:
             ////а) понедельник;

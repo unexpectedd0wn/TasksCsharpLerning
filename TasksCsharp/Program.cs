@@ -12,9 +12,9 @@ namespace TasksCsharp
     {
         static void Main(string[] args)
         {
-            //_S.S1();
-            //_S.S2();
-            //_S.S3();
+            //_S.S1();//done
+            //_S.S2();//done
+            //_S.S3();//done
             _A.A1();
             //_L.L1();
             //_L.L2();
