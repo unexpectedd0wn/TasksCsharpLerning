@@ -12,7 +12,8 @@ namespace SBeregovoy
     {
         static void Main(string[] args)
         {
-            Lesson2.lesson2();
+            //Lesson2.lesson2();
+            Lesson3.lesson3();
         }
     }
 }
