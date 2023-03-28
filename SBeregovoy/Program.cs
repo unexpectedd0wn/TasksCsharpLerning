@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Lessons.Lesson2;
+using SBeregovoy.Lessons;
 
 
 namespace SBeregovoy
@@ -12,7 +12,7 @@ namespace SBeregovoy
     {
         static void Main(string[] args)
         {
-            
+            Lesson2.lesson2();
         }
     }
 }
