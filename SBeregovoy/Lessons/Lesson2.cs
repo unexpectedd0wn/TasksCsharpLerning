@@ -39,7 +39,21 @@ namespace SBeregovoy.Lessons
             long l = long.MaxValue;//беззнаковое (2 раза больше)
             ulong ul = ulong.MaxValue;//знаковое
 
+
+            int sum = 100 + 200;
+            byte sum1 = 100 + 200;//не работает, нарушили размерность, превысили лимит который может влезть 
+
+            //в int не может быть сохранена дробная часть 
+            //для дробных частей можно использовать float или double
+
+            //4 байта
+            float f = float.MaxValue;
+
+            //8 байт
+            double d = double.MaxValue;
             
+
+
 
         }
 
