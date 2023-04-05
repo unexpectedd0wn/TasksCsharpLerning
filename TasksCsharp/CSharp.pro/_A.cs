@@ -12,56 +12,65 @@ namespace TasksCsharp.CSharp.pro
         {
             ////A1.1.Дано расстояние в сантиметрах.Найти число полных метров в нем.
 
-            //Console.WriteLine("Please, enter the lenth in cm");
-            //double lenth = double.Parse(Console.ReadLine());
-            //Console.WriteLine($"The lenth in the m = {lenth*100}");
+                //Console.WriteLine("Please, enter the lenth in cm");
+                //double lenth = double.Parse(Console.ReadLine());
+                //Console.WriteLine($"The lenth in the m = {lenth*100}");
 
 
             ////A1.2.Дана масса в килограммах.Найти число полных центнеров в ней.
 
-            //Console.WriteLine("Please, enter the mass in kg");
-            //double weight = double.Parse(Console.ReadLine());
-            //Console.WriteLine($"The lenth in the m = {weight/100}");
+                //Console.WriteLine("Please, enter the mass in kg");
+                //double weight = double.Parse(Console.ReadLine());
+                //Console.WriteLine($"The lenth in the m = {weight/100}");
 
             ////A1.3.Дана масса в килограммах.Найти число полных тонн в ней.
 
-            //Console.WriteLine("Please, enter the mass in kg");
-            //double weight = double.Parse(Console.ReadLine());
-            //Console.WriteLine($"The lenth in the m = {weight / 1000}");
+                //Console.WriteLine("Please, enter the mass in kg");
+                //double weight = double.Parse(Console.ReadLine());
+                //Console.WriteLine($"The lenth in the m = {weight / 1000}");
 
             ////A1.4.Дано расстояние в метрах.Найти число полных километров в нем.
 
-            //Console.WriteLine("Please, enter distance in m");
-            //double distace = double.Parse(Console.ReadLine());
-            //Console.WriteLine($"The entered distance in the km = {distace / 1000}");
+                //Console.WriteLine("Please, enter distance in m");
+                //double distace = double.Parse(Console.ReadLine());
+                //Console.WriteLine($"The entered distance in the km = {distace / 1000}");
 
             ////A1.5.С некоторого момента прошло 234 дня.Сколько полных недель прошло за этот период?
 
-            //double somedays = 234;
-            //double result2 = Math.Round(somedays / 7);
-            //Console.WriteLine($"The full weeks left {result2}");
+                //double somedays = 234;
+                //double result2 = Math.Round(somedays / 7);
+                //Console.WriteLine($"The full weeks left {result2}");
 
             ////A1.6.С начала суток прошло n секунд.Определить:
             ////а) сколько полных часов прошло с начала суток;
 
-            //Console.WriteLine("Please, enter how much seconds have passed ?");
-            //double seconds = double.Parse(Console.ReadLine());
-            //Console.WriteLine($"The number of full hours = {Math.Round(seconds / 3600)}");
+                //Console.WriteLine("Please, enter how much seconds have passed ?");
+                //double seconds = double.Parse(Console.ReadLine());
+                //Console.WriteLine($"The number of full hours = {Math.Round(seconds / 3600)}");
 
             ////б) сколько полных минут прошло с начала очередного часа;
 
-            //Console.WriteLine("Please, enter how much seconds have passed ?");
-            //double seconds = double.Parse(Console.ReadLine());
-            //Console.WriteLine($"The number of full minuts = {Math.Round(seconds / 60)}");
+                //Console.WriteLine("Please, enter how much seconds have passed ?");
+                //double seconds = double.Parse(Console.ReadLine());
+                //Console.WriteLine($"The number of full minuts = {Math.Round(seconds / 60)}");
 
             ////в) сколько полных секунд прошло с начала очередной минуты.
 
-            Console.WriteLine("Please, enter how much seconds have passed ?");
-            double seconds = double.Parse(Console.ReadLine());
-            Console.WriteLine($"The number of full minuts = {Math.Round(seconds / 60)}");
+                //Console.WriteLine("Please, enter how much seconds have passed ?");
+                //double seconds = double.Parse(Console.ReadLine());
+                //Console.WriteLine($"The number of full minuts = {Math.Round(seconds - (seconds / 60)*60)}");
 
             ////A1.7.Дан прямоугольник с размерами 543 х 130 мм.Сколько квадратов со стороной 130 мм можно отрезать от него?
-            ////A1.8.Дано целое число k(1 ≤ k ≤ 365).Присвоить целочисленной величине n значение 1, 2, …, 6 или 0 в зависимости от того, на какой день недели(понедельник, вторник, …, субботу или воскресенье) приходится k-й день года, в котором 1 января:
+
+                //double rectWidth = 543, rectHeight = 530, sqrSide = 130, num_of_squares_width, num_of_squares_height;
+                //num_of_squares_width = rectWidth / sqrSide;
+                //num_of_squares_height = rectHeight / sqrSide;
+                //Console.WriteLine($"The result is: {Math.Round(num_of_squares_width * num_of_squares_height)}");
+
+
+            ////A1.8.Дано целое число k(1 ≤ k ≤ 365).Присвоить целочисленной величине n значение 1, 2, …, 6 или 0 
+            ///в зависимости от того, на какой день недели(понедельник, вторник, …, субботу или воскресенье) 
+            ///приходится k-й день года, в котором 1 января:
             ////а) понедельник;
             ////б) вторник;
             ////в) d - й день недели(если 1 января — понедельник, то d = 1, если вторник — d = 2, …, если воскресенье — d = 7).
@@ -74,6 +83,9 @@ namespace TasksCsharp.CSharp.pro
             ////б) число единиц в нем;
             ////в) сумму его цифр;
             ////г) произведение его цифр.
+
+            Console.WriteLine("Please, enter 2digists number");
+            
             ////A2.2.Дано двузначное число. Получить число, образованное при перестановке цифр заданного числа.
             ////A2.3.Дано трехзначное число. Найти:
             ////а) число единиц в нем;
